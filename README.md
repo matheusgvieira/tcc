@@ -1,5 +1,9 @@
-# Sistema de Monitoramento de Caixas de Junção de Sistemas Fotovoltaicos
+# Desenvolvimento de protótipo funcional de hardware e firmware para monitoramento de instalações CC de sistemas fotovoltaicos
 
-O aumento acelerado da demanda por energia elétrica em todo o mundo, associado a necessidade de diminuir a dependência por combustíveis fósseis, têm alavancado a busca por fontes de energia alternativas. Nos últimos anos, destaca-se o forte crescimento do setor solar fotovoltaico brasileiro, com sistemas conectados à rede, que chegou a crescer 216% em um período de três anos. O aumento da quantidade de sistemas fotovoltaicos
-implantados implicam na necessidade de se desenvolver sistemas que favoreçam a operação e manutenção, de forma a garantir que os equipamentos operem sob as condições projetadas e com menores riscos a saúde e meio ambiente. Nesse contexto, este trabalho
-tem por objetivo principal o desenvolvimento de um sistema, voltado para o monitoramento e controle de caixas de junção (String Box), se aproveitando do cenário promissor do setor.
+Este trabalho tem por objetivo o desenvolvimento de um hadware e firmware para o monitoramento, em tempo real, de caixas de junção de sistemas fotovoltaicos, viabilizando o acompanhamento de variáveis elétricas e estado de operação dos equipamentos.
+
+### Estrututra
+
+- Hardware: contém todos esquemáticos e layout de placa de circuito impressos, desenvolvidos no Altium.
+- Firmware: contém o código fonte da placa de coleta de dados e da placa de comunicação, no CubeIde e ESP-IDF, respectivamente.
+- Software: containers para criação do broker MQTT e o Dashboard no Node-red

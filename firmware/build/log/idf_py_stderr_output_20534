@@ -1,0 +1,10 @@
+CMake Error at /Users/mgois/esp/esp-idf/tools/cmake/build.cmake:245 (message):
+  Failed to resolve component 'esp_log'.
+Call Stack (most recent call first):
+  /Users/mgois/esp/esp-idf/tools/cmake/build.cmake:281 (__build_resolve_and_add_req)
+  /Users/mgois/esp/esp-idf/tools/cmake/build.cmake:574 (__build_expand_requirements)
+  /Users/mgois/esp/esp-idf/tools/cmake/project.cmake:434 (idf_build_process)
+  CMakeLists.txt:13 (project)
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed

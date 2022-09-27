@@ -1,0 +1,377 @@
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /Users/mgois/tcc/com_module/sdkconfig
+Loading defaults file /Users/mgois/tcc/com_module/sdkconfig.defaults...
+-- App "esp_occhi" version: 0468ff3-dirty
+-- Adding linker script /Users/mgois/tcc/com_module/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /Users/mgois/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /Users/mgois/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /Users/mgois/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /Users/mgois/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /Users/mgois/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /Users/mgois/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /Users/mgois/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /Users/mgois/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock components console cxx driver efuse esp-tls esp_adc esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_netif esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_serial_slave_link esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport tinyusb ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /Users/mgois/esp/esp-idf/components/app_trace /Users/mgois/esp/esp-idf/components/app_update /Users/mgois/esp/esp-idf/components/bootloader /Users/mgois/esp/esp-idf/components/bootloader_support /Users/mgois/esp/esp-idf/components/bt /Users/mgois/esp/esp-idf/components/cmock /Users/mgois/tcc/com_module/components /Users/mgois/esp/esp-idf/components/console /Users/mgois/esp/esp-idf/components/cxx /Users/mgois/esp/esp-idf/components/driver /Users/mgois/esp/esp-idf/components/efuse /Users/mgois/esp/esp-idf/components/esp-tls /Users/mgois/esp/esp-idf/components/esp_adc /Users/mgois/esp/esp-idf/components/esp_common /Users/mgois/esp/esp-idf/components/esp_eth /Users/mgois/esp/esp-idf/components/esp_event /Users/mgois/esp/esp-idf/components/esp_gdbstub /Users/mgois/esp/esp-idf/components/esp_hid /Users/mgois/esp/esp-idf/components/esp_http_client /Users/mgois/esp/esp-idf/components/esp_http_server /Users/mgois/esp/esp-idf/components/esp_https_ota /Users/mgois/esp/esp-idf/components/esp_https_server /Users/mgois/esp/esp-idf/components/esp_hw_support /Users/mgois/esp/esp-idf/components/esp_lcd /Users/mgois/esp/esp-idf/components/esp_local_ctrl /Users/mgois/esp/esp-idf/components/esp_netif /Users/mgois/esp/esp-idf/components/esp_phy /Users/mgois/esp/esp-idf/components/esp_pm /Users/mgois/esp/esp-idf/components/esp_psram /Users/mgois/esp/esp-idf/components/esp_ringbuf /Users/mgois/esp/esp-idf/components/esp_rom /Users/mgois/esp/esp-idf/components/esp_serial_slave_link /Users/mgois/esp/esp-idf/components/esp_system /Users/mgois/esp/esp-idf/components/esp_timer /Users/mgois/esp/esp-idf/components/esp_wifi /Users/mgois/esp/esp-idf/components/espcoredump /Users/mgois/esp/esp-idf/components/esptool_py /Users/mgois/esp/esp-idf/components/fatfs /Users/mgois/esp/esp-idf/components/freertos /Users/mgois/esp/esp-idf/components/hal /Users/mgois/esp/esp-idf/components/heap /Users/mgois/esp/esp-idf/components/http_parser /Users/mgois/esp/esp-idf/components/idf_test /Users/mgois/esp/esp-idf/components/ieee802154 /Users/mgois/esp/esp-idf/components/json /Users/mgois/esp/esp-idf/components/log /Users/mgois/esp/esp-idf/components/lwip /Users/mgois/tcc/com_module/main /Users/mgois/esp/esp-idf/components/mbedtls /Users/mgois/esp/esp-idf/components/mqtt /Users/mgois/esp/esp-idf/components/newlib /Users/mgois/esp/esp-idf/components/nvs_flash /Users/mgois/esp/esp-idf/components/openthread /Users/mgois/esp/esp-idf/components/partition_table /Users/mgois/esp/esp-idf/components/perfmon /Users/mgois/esp/esp-idf/components/protobuf-c /Users/mgois/esp/esp-idf/components/protocomm /Users/mgois/esp/esp-idf/components/pthread /Users/mgois/esp/esp-idf/components/sdmmc /Users/mgois/esp/esp-idf/components/soc /Users/mgois/esp/esp-idf/components/spi_flash /Users/mgois/esp/esp-idf/components/spiffs /Users/mgois/esp/esp-idf/components/tcp_transport /Users/mgois/esp/esp-idf/components/tinyusb /Users/mgois/esp/esp-idf/components/ulp /Users/mgois/esp/esp-idf/components/unity /Users/mgois/esp/esp-idf/components/usb /Users/mgois/esp/esp-idf/components/vfs /Users/mgois/esp/esp-idf/components/wear_levelling /Users/mgois/esp/esp-idf/components/wifi_provisioning /Users/mgois/esp/esp-idf/components/wpa_supplicant /Users/mgois/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/mgois/tcc/com_module/build
+[1/20] Performing build step for 'bootloader'
+[1/1] cd /Users/mgois/tcc/com_module/build/bootloader/esp-idf/esptool_py && /Users/mgois/.espressif/python_env/idf5.1_py3.10_env/bin/python /Users/mgois/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/mgois/tcc/com_module/build/bootloader/bootloader.bin
+Bootloader binary size 0x66c0 bytes. 0x940 bytes (8%) free.
+[2/18] Building C object esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj
+[3/18] Linking C static library esp-idf/app_update/libapp_update.a
+[4/18] Building C object esp-idf/components/CMakeFiles/__idf_components.dir/led.c.obj
+FAILED: esp-idf/components/CMakeFiles/__idf_components.dir/led.c.obj 
+/Users/mgois/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -DMBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\" -I/Users/mgois/tcc/com_module/build/config -I/Users/mgois/tcc/com_module/components/include -I/Users/mgois/esp/esp-idf/components/newlib/platform_include -I/Users/mgois/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/Users/mgois/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/Users/mgois/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/Users/mgois/esp/esp-idf/components/freertos/esp_additions/include -I/Users/mgois/esp/esp-idf/components/esp_hw_support/include -I/Users/mgois/esp/esp-idf/components/esp_hw_support/include/soc -I/Users/mgois/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/Users/mgois/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/Users/mgois/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/Users/mgois/esp/esp-idf/components/heap/include -I/Users/mgois/esp/esp-idf/components/log/include -I/Users/mgois/esp/esp-idf/components/soc/include -I/Users/mgois/esp/esp-idf/components/soc/esp32/. -I/Users/mgois/esp/esp-idf/components/soc/esp32/include -I/Users/mgois/esp/esp-idf/components/hal/esp32/include -I/Users/mgois/esp/esp-idf/components/hal/include -I/Users/mgois/esp/esp-idf/components/hal/platform_port/include -I/Users/mgois/esp/esp-idf/components/esp_rom/include -I/Users/mgois/esp/esp-idf/components/esp_rom/include/esp32 -I/Users/mgois/esp/esp-idf/components/esp_rom/esp32 -I/Users/mgois/esp/esp-idf/components/esp_common/include -I/Users/mgois/esp/esp-idf/components/esp_system/include -I/Users/mgois/esp/esp-idf/components/esp_system/port/soc -I/Users/mgois/esp/esp-idf/components/esp_system/port/include/private -I/Users/mgois/esp/esp-idf/components/xtensa/include -I/Users/mgois/esp/esp-idf/components/xtensa/esp32/include -I/Users/mgois/esp/esp-idf/components/lwip/include -I/Users/mgois/esp/esp-idf/components/lwip/include/apps -I/Users/mgois/esp/esp-idf/components/lwip/include/apps/sntp -I/Users/mgois/esp/esp-idf/components/lwip/lwip/src/include -I/Users/mgois/esp/esp-idf/components/lwip/port/esp32/include -I/Users/mgois/esp/esp-idf/components/lwip/port/esp32/include/arch -I/Users/mgois/esp/esp-idf/components/driver/include -I/Users/mgois/esp/esp-idf/components/driver/deprecated -I/Users/mgois/esp/esp-idf/components/driver/esp32/include -I/Users/mgois/esp/esp-idf/components/esp_pm/include -I/Users/mgois/esp/esp-idf/components/esp_ringbuf/include -I/Users/mgois/esp/esp-idf/components/json/cJSON -I/Users/mgois/esp/esp-idf/components/mqtt/esp-mqtt/include -I/Users/mgois/esp/esp-idf/components/esp_event/include -I/Users/mgois/esp/esp-idf/components/tcp_transport/include -I/Users/mgois/esp/esp-idf/components/esp-tls -I/Users/mgois/esp/esp-idf/components/esp-tls/esp-tls-crypto -I/Users/mgois/esp/esp-idf/components/mbedtls/port/include -I/Users/mgois/esp/esp-idf/components/mbedtls/mbedtls/include -I/Users/mgois/esp/esp-idf/components/mbedtls/mbedtls/library -I/Users/mgois/esp/esp-idf/components/mbedtls/esp_crt_bundle/include -I/Users/mgois/esp/esp-idf/components/spiffs/include -I/Users/mgois/esp/esp-idf/components/spi_flash/include -I/Users/mgois/esp/esp-idf/components/esp_http_server/include -I/Users/mgois/esp/esp-idf/components/http_parser -I/Users/mgois/esp/esp-idf/components/esp_eth/include -I/Users/mgois/esp/esp-idf/components/esp_wifi/include -I/Users/mgois/esp/esp-idf/components/esp_phy/include -I/Users/mgois/esp/esp-idf/components/esp_phy/esp32/include -I/Users/mgois/esp/esp-idf/components/esp_netif/include -I/Users/mgois/esp/esp-idf/components/nvs_flash/include -mlongcalls -Wno-frame-address  -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=/Users/mgois/tcc/com_module=. -fmacro-prefix-map=/Users/mgois/esp/esp-idf=/IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -D_GNU_SOURCE -DIDF_VER=\"v5.1-dev-187-g5b11895700\" -DESP_PLATFORM -D_POSIX_READER_WRITER_LOCKS -MD -MT esp-idf/components/CMakeFiles/__idf_components.dir/led.c.obj -MF esp-idf/components/CMakeFiles/__idf_components.dir/led.c.obj.d -o esp-idf/components/CMakeFiles/__idf_components.dir/led.c.obj -c /Users/mgois/tcc/com_module/components/led.c
+/Users/mgois/tcc/com_module/components/led.c: In function 'toggle_led_task':
+/Users/mgois/tcc/com_module/components/led.c:38:23: error: 'led_rgb' has no member named 'time'
+   38 |         vTaskDelay(led.time / portTICK_PERIOD_MS);
+      |                       ^
+/Users/mgois/tcc/com_module/components/led.c:40:23: error: 'led_rgb' has no member named 'time'
+   40 |         vTaskDelay(led.time / portTICK_PERIOD_MS);
+      |                       ^
+[5/18] Building C object esp-idf/components/CMakeFiles/__idf_components.dir/mqtt_publish.c.obj
+FAILED: esp-idf/components/CMakeFiles/__idf_components.dir/mqtt_publish.c.obj 
+/Users/mgois/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -DMBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\" -I/Users/mgois/tcc/com_module/build/config -I/Users/mgois/tcc/com_module/components/include -I/Users/mgois/esp/esp-idf/components/newlib/platform_include -I/Users/mgois/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/Users/mgois/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/Users/mgois/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/Users/mgois/esp/esp-idf/components/freertos/esp_additions/include -I/Users/mgois/esp/esp-idf/components/esp_hw_support/include -I/Users/mgois/esp/esp-idf/components/esp_hw_support/include/soc -I/Users/mgois/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/Users/mgois/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/Users/mgois/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/Users/mgois/esp/esp-idf/components/heap/include -I/Users/mgois/esp/esp-idf/components/log/include -I/Users/mgois/esp/esp-idf/components/soc/include -I/Users/mgois/esp/esp-idf/components/soc/esp32/. -I/Users/mgois/esp/esp-idf/components/soc/esp32/include -I/Users/mgois/esp/esp-idf/components/hal/esp32/include -I/Users/mgois/esp/esp-idf/components/hal/include -I/Users/mgois/esp/esp-idf/components/hal/platform_port/include -I/Users/mgois/esp/esp-idf/components/esp_rom/include -I/Users/mgois/esp/esp-idf/components/esp_rom/include/esp32 -I/Users/mgois/esp/esp-idf/components/esp_rom/esp32 -I/Users/mgois/esp/esp-idf/components/esp_common/include -I/Users/mgois/esp/esp-idf/components/esp_system/include -I/Users/mgois/esp/esp-idf/components/esp_system/port/soc -I/Users/mgois/esp/esp-idf/components/esp_system/port/include/private -I/Users/mgois/esp/esp-idf/components/xtensa/include -I/Users/mgois/esp/esp-idf/components/xtensa/esp32/include -I/Users/mgois/esp/esp-idf/components/lwip/include -I/Users/mgois/esp/esp-idf/components/lwip/include/apps -I/Users/mgois/esp/esp-idf/components/lwip/include/apps/sntp -I/Users/mgois/esp/esp-idf/components/lwip/lwip/src/include -I/Users/mgois/esp/esp-idf/components/lwip/port/esp32/include -I/Users/mgois/esp/esp-idf/components/lwip/port/esp32/include/arch -I/Users/mgois/esp/esp-idf/components/driver/include -I/Users/mgois/esp/esp-idf/components/driver/deprecated -I/Users/mgois/esp/esp-idf/components/driver/esp32/include -I/Users/mgois/esp/esp-idf/components/esp_pm/include -I/Users/mgois/esp/esp-idf/components/esp_ringbuf/include -I/Users/mgois/esp/esp-idf/components/json/cJSON -I/Users/mgois/esp/esp-idf/components/mqtt/esp-mqtt/include -I/Users/mgois/esp/esp-idf/components/esp_event/include -I/Users/mgois/esp/esp-idf/components/tcp_transport/include -I/Users/mgois/esp/esp-idf/components/esp-tls -I/Users/mgois/esp/esp-idf/components/esp-tls/esp-tls-crypto -I/Users/mgois/esp/esp-idf/components/mbedtls/port/include -I/Users/mgois/esp/esp-idf/components/mbedtls/mbedtls/include -I/Users/mgois/esp/esp-idf/components/mbedtls/mbedtls/library -I/Users/mgois/esp/esp-idf/components/mbedtls/esp_crt_bundle/include -I/Users/mgois/esp/esp-idf/components/spiffs/include -I/Users/mgois/esp/esp-idf/components/spi_flash/include -I/Users/mgois/esp/esp-idf/components/esp_http_server/include -I/Users/mgois/esp/esp-idf/components/http_parser -I/Users/mgois/esp/esp-idf/components/esp_eth/include -I/Users/mgois/esp/esp-idf/components/esp_wifi/include -I/Users/mgois/esp/esp-idf/components/esp_phy/include -I/Users/mgois/esp/esp-idf/components/esp_phy/esp32/include -I/Users/mgois/esp/esp-idf/components/esp_netif/include -I/Users/mgois/esp/esp-idf/components/nvs_flash/include -mlongcalls -Wno-frame-address  -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=/Users/mgois/tcc/com_module=. -fmacro-prefix-map=/Users/mgois/esp/esp-idf=/IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -D_GNU_SOURCE -DIDF_VER=\"v5.1-dev-187-g5b11895700\" -DESP_PLATFORM -D_POSIX_READER_WRITER_LOCKS -MD -MT esp-idf/components/CMakeFiles/__idf_components.dir/mqtt_publish.c.obj -MF esp-idf/components/CMakeFiles/__idf_components.dir/mqtt_publish.c.obj.d -o esp-idf/components/CMakeFiles/__idf_components.dir/mqtt_publish.c.obj -c /Users/mgois/tcc/com_module/components/mqtt_publish.c
+/Users/mgois/tcc/com_module/components/mqtt_publish.c: In function 'mqtt_publish_module_task':
+/Users/mgois/tcc/com_module/components/mqtt_publish.c:60:14: error: 'esp_mqtt_client_config_t' has no member named 'uri'
+   60 |             .uri = CONFIG_BROKER_URL,
+      |              ^~~
+/Users/mgois/tcc/com_module/components/mqtt_publish.c:61:14: error: 'esp_mqtt_client_config_t' has no member named 'event_handle'
+   61 |             .event_handle = mqtt_event_handler,
+      |              ^~~~~~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt_publish.c:61:29: warning: initialization of 'const char *' from incompatible pointer type 'esp_err_t (*)(esp_mqtt_event_t *)' {aka 'int (*)(esp_mqtt_event_t *)'} [-Wincompatible-pointer-types]
+   61 |             .event_handle = mqtt_event_handler,
+      |                             ^~~~~~~~~~~~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt_publish.c:61:29: note: (near initialization for 'mqtt_cfg.credentials.username')
+/Users/mgois/tcc/com_module/components/mqtt_publish.c:62:14: error: 'esp_mqtt_client_config_t' has no member named 'username'
+   62 |             .username = "Token #2",
+      |              ^~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt_publish.c:63:14: error: 'esp_mqtt_client_config_t' has no member named 'password'
+   63 |             .password = "a6fbba72-067c-4309-be80-ac15ec1c1aa7"
+      |              ^~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt_publish.c:63:25: warning: initialization of 'int' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   63 |             .password = "a6fbba72-067c-4309-be80-ac15ec1c1aa7"
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt_publish.c:63:25: note: (near initialization for 'mqtt_cfg.network.reconnect_timeout_ms')
+/Users/mgois/tcc/com_module/components/mqtt_publish.c:59:47: error: missing braces around initializer [-Werror=missing-braces]
+   59 |     const esp_mqtt_client_config_t mqtt_cfg = {
+      |                                               ^
+cc1: some warnings being treated as errors
+[6/18] Building C object esp-idf/components/CMakeFiles/__idf_components.dir/mqtt_publish_state.c.obj
+FAILED: esp-idf/components/CMakeFiles/__idf_components.dir/mqtt_publish_state.c.obj 
+/Users/mgois/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -DMBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\" -I/Users/mgois/tcc/com_module/build/config -I/Users/mgois/tcc/com_module/components/include -I/Users/mgois/esp/esp-idf/components/newlib/platform_include -I/Users/mgois/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/Users/mgois/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/Users/mgois/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/Users/mgois/esp/esp-idf/components/freertos/esp_additions/include -I/Users/mgois/esp/esp-idf/components/esp_hw_support/include -I/Users/mgois/esp/esp-idf/components/esp_hw_support/include/soc -I/Users/mgois/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/Users/mgois/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/Users/mgois/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/Users/mgois/esp/esp-idf/components/heap/include -I/Users/mgois/esp/esp-idf/components/log/include -I/Users/mgois/esp/esp-idf/components/soc/include -I/Users/mgois/esp/esp-idf/components/soc/esp32/. -I/Users/mgois/esp/esp-idf/components/soc/esp32/include -I/Users/mgois/esp/esp-idf/components/hal/esp32/include -I/Users/mgois/esp/esp-idf/components/hal/include -I/Users/mgois/esp/esp-idf/components/hal/platform_port/include -I/Users/mgois/esp/esp-idf/components/esp_rom/include -I/Users/mgois/esp/esp-idf/components/esp_rom/include/esp32 -I/Users/mgois/esp/esp-idf/components/esp_rom/esp32 -I/Users/mgois/esp/esp-idf/components/esp_common/include -I/Users/mgois/esp/esp-idf/components/esp_system/include -I/Users/mgois/esp/esp-idf/components/esp_system/port/soc -I/Users/mgois/esp/esp-idf/components/esp_system/port/include/private -I/Users/mgois/esp/esp-idf/components/xtensa/include -I/Users/mgois/esp/esp-idf/components/xtensa/esp32/include -I/Users/mgois/esp/esp-idf/components/lwip/include -I/Users/mgois/esp/esp-idf/components/lwip/include/apps -I/Users/mgois/esp/esp-idf/components/lwip/include/apps/sntp -I/Users/mgois/esp/esp-idf/components/lwip/lwip/src/include -I/Users/mgois/esp/esp-idf/components/lwip/port/esp32/include -I/Users/mgois/esp/esp-idf/components/lwip/port/esp32/include/arch -I/Users/mgois/esp/esp-idf/components/driver/include -I/Users/mgois/esp/esp-idf/components/driver/deprecated -I/Users/mgois/esp/esp-idf/components/driver/esp32/include -I/Users/mgois/esp/esp-idf/components/esp_pm/include -I/Users/mgois/esp/esp-idf/components/esp_ringbuf/include -I/Users/mgois/esp/esp-idf/components/json/cJSON -I/Users/mgois/esp/esp-idf/components/mqtt/esp-mqtt/include -I/Users/mgois/esp/esp-idf/components/esp_event/include -I/Users/mgois/esp/esp-idf/components/tcp_transport/include -I/Users/mgois/esp/esp-idf/components/esp-tls -I/Users/mgois/esp/esp-idf/components/esp-tls/esp-tls-crypto -I/Users/mgois/esp/esp-idf/components/mbedtls/port/include -I/Users/mgois/esp/esp-idf/components/mbedtls/mbedtls/include -I/Users/mgois/esp/esp-idf/components/mbedtls/mbedtls/library -I/Users/mgois/esp/esp-idf/components/mbedtls/esp_crt_bundle/include -I/Users/mgois/esp/esp-idf/components/spiffs/include -I/Users/mgois/esp/esp-idf/components/spi_flash/include -I/Users/mgois/esp/esp-idf/components/esp_http_server/include -I/Users/mgois/esp/esp-idf/components/http_parser -I/Users/mgois/esp/esp-idf/components/esp_eth/include -I/Users/mgois/esp/esp-idf/components/esp_wifi/include -I/Users/mgois/esp/esp-idf/components/esp_phy/include -I/Users/mgois/esp/esp-idf/components/esp_phy/esp32/include -I/Users/mgois/esp/esp-idf/components/esp_netif/include -I/Users/mgois/esp/esp-idf/components/nvs_flash/include -mlongcalls -Wno-frame-address  -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=/Users/mgois/tcc/com_module=. -fmacro-prefix-map=/Users/mgois/esp/esp-idf=/IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -D_GNU_SOURCE -DIDF_VER=\"v5.1-dev-187-g5b11895700\" -DESP_PLATFORM -D_POSIX_READER_WRITER_LOCKS -MD -MT esp-idf/components/CMakeFiles/__idf_components.dir/mqtt_publish_state.c.obj -MF esp-idf/components/CMakeFiles/__idf_components.dir/mqtt_publish_state.c.obj.d -o esp-idf/components/CMakeFiles/__idf_components.dir/mqtt_publish_state.c.obj -c /Users/mgois/tcc/com_module/components/mqtt_publish_state.c
+/Users/mgois/tcc/com_module/components/mqtt_publish_state.c: In function 'mqtt_publish_state_task':
+/Users/mgois/tcc/com_module/components/mqtt_publish_state.c:58:14: error: 'esp_mqtt_client_config_t' has no member named 'uri'
+   58 |             .uri = CONFIG_BROKER_URL,
+      |              ^~~
+/Users/mgois/tcc/com_module/components/mqtt_publish_state.c:59:14: error: 'esp_mqtt_client_config_t' has no member named 'event_handle'
+   59 |             .event_handle = mqtt_event_handler,
+      |              ^~~~~~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt_publish_state.c:59:29: warning: initialization of 'const char *' from incompatible pointer type 'esp_err_t (*)(esp_mqtt_event_t *)' {aka 'int (*)(esp_mqtt_event_t *)'} [-Wincompatible-pointer-types]
+   59 |             .event_handle = mqtt_event_handler,
+      |                             ^~~~~~~~~~~~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt_publish_state.c:59:29: note: (near initialization for 'mqtt_cfg.credentials.username')
+/Users/mgois/tcc/com_module/components/mqtt_publish_state.c:60:14: error: 'esp_mqtt_client_config_t' has no member named 'username'
+   60 |             .username = "Token #2",
+      |              ^~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt_publish_state.c:61:14: error: 'esp_mqtt_client_config_t' has no member named 'password'
+   61 |             .password = "a6fbba72-067c-4309-be80-ac15ec1c1aa7"
+      |              ^~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt_publish_state.c:61:25: warning: initialization of 'int' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   61 |             .password = "a6fbba72-067c-4309-be80-ac15ec1c1aa7"
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt_publish_state.c:61:25: note: (near initialization for 'mqtt_cfg.network.reconnect_timeout_ms')
+/Users/mgois/tcc/com_module/components/mqtt_publish_state.c:57:47: error: missing braces around initializer [-Werror=missing-braces]
+   57 |     const esp_mqtt_client_config_t mqtt_cfg = {
+      |                                               ^
+In file included from /Users/mgois/tcc/com_module/components/mqtt_publish_state.c:9:
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:265:27: error: format '%x' expects argument of type 'unsigned int', but argument 6 has type 'EventBits_t' {aka 'long unsigned int'} [-Werror=format=]
+  265 | #define LOG_COLOR(COLOR)  "\033[0;" COLOR "m"
+      |                           ^~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:268:27: note: in expansion of macro 'LOG_COLOR'
+  268 | #define LOG_COLOR_E       LOG_COLOR(LOG_COLOR_RED)
+      |                           ^~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:282:37: note: in expansion of macro 'LOG_COLOR_E'
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:410:86: note: in expansion of macro 'LOG_FORMAT'
+  410 |         if (level==ESP_LOG_ERROR )          { esp_log_write(ESP_LOG_ERROR,      tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt_publish_state.c:79:9: note: in expansion of macro 'ESP_LOGI'
+   79 |         ESP_LOGI(TAG, "EventBits=%x", EventBits);
+      |         ^~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:265:27: error: format '%x' expects argument of type 'unsigned int', but argument 6 has type 'EventBits_t' {aka 'long unsigned int'} [-Werror=format=]
+  265 | #define LOG_COLOR(COLOR)  "\033[0;" COLOR "m"
+      |                           ^~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:269:27: note: in expansion of macro 'LOG_COLOR'
+  269 | #define LOG_COLOR_W       LOG_COLOR(LOG_COLOR_BROWN)
+      |                           ^~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:282:37: note: in expansion of macro 'LOG_COLOR_W'
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:411:86: note: in expansion of macro 'LOG_FORMAT'
+  411 |         else if (level==ESP_LOG_WARN )      { esp_log_write(ESP_LOG_WARN,       tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt_publish_state.c:79:9: note: in expansion of macro 'ESP_LOGI'
+   79 |         ESP_LOGI(TAG, "EventBits=%x", EventBits);
+      |         ^~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt_publish_state.c:79:1: error: format '%x' expects argument of type 'unsigned int', but argument 6 has type 'EventBits_t' {aka 'long unsigned int'} [-Werror=format=]
+   79 |         ESP_LOGI(TAG, "EventBits=%x", EventBits);
+      | ^       ~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:282:59: note: in definition of macro 'LOG_FORMAT'
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                           ^~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt_publish_state.c:79:9: note: in expansion of macro 'ESP_LOGI'
+   79 |         ESP_LOGI(TAG, "EventBits=%x", EventBits);
+      |         ^~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt_publish_state.c:79:1: error: format '%x' expects argument of type 'unsigned int', but argument 6 has type 'EventBits_t' {aka 'long unsigned int'} [-Werror=format=]
+   79 |         ESP_LOGI(TAG, "EventBits=%x", EventBits);
+      | ^       ~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:282:59: note: in definition of macro 'LOG_FORMAT'
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                           ^~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt_publish_state.c:79:9: note: in expansion of macro 'ESP_LOGI'
+   79 |         ESP_LOGI(TAG, "EventBits=%x", EventBits);
+      |         ^~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:265:27: error: format '%x' expects argument of type 'unsigned int', but argument 6 has type 'EventBits_t' {aka 'long unsigned int'} [-Werror=format=]
+  265 | #define LOG_COLOR(COLOR)  "\033[0;" COLOR "m"
+      |                           ^~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:270:27: note: in expansion of macro 'LOG_COLOR'
+  270 | #define LOG_COLOR_I       LOG_COLOR(LOG_COLOR_GREEN)
+      |                           ^~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:282:37: note: in expansion of macro 'LOG_COLOR_I'
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:414:86: note: in expansion of macro 'LOG_FORMAT'
+  414 |         else                                { esp_log_write(ESP_LOG_INFO,       tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt_publish_state.c:79:9: note: in expansion of macro 'ESP_LOGI'
+   79 |         ESP_LOGI(TAG, "EventBits=%x", EventBits);
+      |         ^~~~~~~~
+cc1: some warnings being treated as errors
+[7/18] Building C object esp-idf/components/CMakeFiles/__idf_components.dir/mqtt.c.obj
+FAILED: esp-idf/components/CMakeFiles/__idf_components.dir/mqtt.c.obj 
+/Users/mgois/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -DMBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\" -I/Users/mgois/tcc/com_module/build/config -I/Users/mgois/tcc/com_module/components/include -I/Users/mgois/esp/esp-idf/components/newlib/platform_include -I/Users/mgois/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/Users/mgois/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/Users/mgois/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/Users/mgois/esp/esp-idf/components/freertos/esp_additions/include -I/Users/mgois/esp/esp-idf/components/esp_hw_support/include -I/Users/mgois/esp/esp-idf/components/esp_hw_support/include/soc -I/Users/mgois/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/Users/mgois/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/Users/mgois/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/Users/mgois/esp/esp-idf/components/heap/include -I/Users/mgois/esp/esp-idf/components/log/include -I/Users/mgois/esp/esp-idf/components/soc/include -I/Users/mgois/esp/esp-idf/components/soc/esp32/. -I/Users/mgois/esp/esp-idf/components/soc/esp32/include -I/Users/mgois/esp/esp-idf/components/hal/esp32/include -I/Users/mgois/esp/esp-idf/components/hal/include -I/Users/mgois/esp/esp-idf/components/hal/platform_port/include -I/Users/mgois/esp/esp-idf/components/esp_rom/include -I/Users/mgois/esp/esp-idf/components/esp_rom/include/esp32 -I/Users/mgois/esp/esp-idf/components/esp_rom/esp32 -I/Users/mgois/esp/esp-idf/components/esp_common/include -I/Users/mgois/esp/esp-idf/components/esp_system/include -I/Users/mgois/esp/esp-idf/components/esp_system/port/soc -I/Users/mgois/esp/esp-idf/components/esp_system/port/include/private -I/Users/mgois/esp/esp-idf/components/xtensa/include -I/Users/mgois/esp/esp-idf/components/xtensa/esp32/include -I/Users/mgois/esp/esp-idf/components/lwip/include -I/Users/mgois/esp/esp-idf/components/lwip/include/apps -I/Users/mgois/esp/esp-idf/components/lwip/include/apps/sntp -I/Users/mgois/esp/esp-idf/components/lwip/lwip/src/include -I/Users/mgois/esp/esp-idf/components/lwip/port/esp32/include -I/Users/mgois/esp/esp-idf/components/lwip/port/esp32/include/arch -I/Users/mgois/esp/esp-idf/components/driver/include -I/Users/mgois/esp/esp-idf/components/driver/deprecated -I/Users/mgois/esp/esp-idf/components/driver/esp32/include -I/Users/mgois/esp/esp-idf/components/esp_pm/include -I/Users/mgois/esp/esp-idf/components/esp_ringbuf/include -I/Users/mgois/esp/esp-idf/components/json/cJSON -I/Users/mgois/esp/esp-idf/components/mqtt/esp-mqtt/include -I/Users/mgois/esp/esp-idf/components/esp_event/include -I/Users/mgois/esp/esp-idf/components/tcp_transport/include -I/Users/mgois/esp/esp-idf/components/esp-tls -I/Users/mgois/esp/esp-idf/components/esp-tls/esp-tls-crypto -I/Users/mgois/esp/esp-idf/components/mbedtls/port/include -I/Users/mgois/esp/esp-idf/components/mbedtls/mbedtls/include -I/Users/mgois/esp/esp-idf/components/mbedtls/mbedtls/library -I/Users/mgois/esp/esp-idf/components/mbedtls/esp_crt_bundle/include -I/Users/mgois/esp/esp-idf/components/spiffs/include -I/Users/mgois/esp/esp-idf/components/spi_flash/include -I/Users/mgois/esp/esp-idf/components/esp_http_server/include -I/Users/mgois/esp/esp-idf/components/http_parser -I/Users/mgois/esp/esp-idf/components/esp_eth/include -I/Users/mgois/esp/esp-idf/components/esp_wifi/include -I/Users/mgois/esp/esp-idf/components/esp_phy/include -I/Users/mgois/esp/esp-idf/components/esp_phy/esp32/include -I/Users/mgois/esp/esp-idf/components/esp_netif/include -I/Users/mgois/esp/esp-idf/components/nvs_flash/include -mlongcalls -Wno-frame-address  -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=/Users/mgois/tcc/com_module=. -fmacro-prefix-map=/Users/mgois/esp/esp-idf=/IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -D_GNU_SOURCE -DIDF_VER=\"v5.1-dev-187-g5b11895700\" -DESP_PLATFORM -D_POSIX_READER_WRITER_LOCKS -MD -MT esp-idf/components/CMakeFiles/__idf_components.dir/mqtt.c.obj -MF esp-idf/components/CMakeFiles/__idf_components.dir/mqtt.c.obj.d -o esp-idf/components/CMakeFiles/__idf_components.dir/mqtt.c.obj -c /Users/mgois/tcc/com_module/components/mqtt.c
+/Users/mgois/tcc/com_module/components/mqtt.c: In function 'mqtt_app_start':
+/Users/mgois/tcc/com_module/components/mqtt.c:68:14: error: 'esp_mqtt_client_config_t' has no member named 'uri'
+   68 |             .uri = "mqtt://mqtt.tago.io:1883",
+      |              ^~~
+/Users/mgois/tcc/com_module/components/mqtt.c:69:14: error: 'esp_mqtt_client_config_t' has no member named 'event_handle'
+   69 |             .event_handle = mqtt_event_handler,
+      |              ^~~~~~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt.c:69:29: warning: initialization of 'const char *' from incompatible pointer type 'esp_err_t (*)(esp_mqtt_event_t *)' {aka 'int (*)(esp_mqtt_event_t *)'} [-Wincompatible-pointer-types]
+   69 |             .event_handle = mqtt_event_handler,
+      |                             ^~~~~~~~~~~~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt.c:69:29: note: (near initialization for 'mqtt_cfg.credentials.username')
+/Users/mgois/tcc/com_module/components/mqtt.c:70:14: error: 'esp_mqtt_client_config_t' has no member named 'username'
+   70 |             .username = "Token #2",
+      |              ^~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt.c:71:14: error: 'esp_mqtt_client_config_t' has no member named 'password'
+   71 |             .password = "a6fbba72-067c-4309-be80-ac15ec1c1aa7"
+      |              ^~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt.c:71:25: warning: initialization of 'int' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   71 |             .password = "a6fbba72-067c-4309-be80-ac15ec1c1aa7"
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt.c:71:25: note: (near initialization for 'mqtt_cfg.network.reconnect_timeout_ms')
+/Users/mgois/tcc/com_module/components/mqtt.c:67:47: error: missing braces around initializer [-Werror=missing-braces]
+   67 |     const esp_mqtt_client_config_t mqtt_cfg = {
+      |                                               ^
+   68 |             .uri = "mqtt://mqtt.tago.io:1883",
+      |                    {{                        }}
+   69 |             .event_handle = mqtt_event_handler,
+      |                             {                 }
+   70 |             .username = "Token #2",
+      |                         {{        }}
+   71 |             .password = "a6fbba72-067c-4309-be80-ac15ec1c1aa7"
+      |                         {
+   72 |     };
+      |     }
+In file included from /Users/mgois/tcc/com_module/components/include/mqtt.h:7,
+                 from /Users/mgois/tcc/com_module/components/mqtt.c:4:
+/Users/mgois/tcc/com_module/components/mqtt.c: In function 'mqtt_init':
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:265:27: error: format '%d' expects argument of type 'int', but argument 6 has type 'uint32_t' {aka 'long unsigned int'} [-Werror=format=]
+  265 | #define LOG_COLOR(COLOR)  "\033[0;" COLOR "m"
+      |                           ^~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:268:27: note: in expansion of macro 'LOG_COLOR'
+  268 | #define LOG_COLOR_E       LOG_COLOR(LOG_COLOR_RED)
+      |                           ^~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:282:37: note: in expansion of macro 'LOG_COLOR_E'
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:410:86: note: in expansion of macro 'LOG_FORMAT'
+  410 |         if (level==ESP_LOG_ERROR )          { esp_log_write(ESP_LOG_ERROR,      tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt.c:100:5: note: in expansion of macro 'ESP_LOGI'
+  100 |     ESP_LOGI(TAG_MQTT, "[APP] Free memory: %d bytes", esp_get_free_heap_size());
+      |     ^~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:265:27: error: format '%d' expects argument of type 'int', but argument 6 has type 'uint32_t' {aka 'long unsigned int'} [-Werror=format=]
+  265 | #define LOG_COLOR(COLOR)  "\033[0;" COLOR "m"
+      |                           ^~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:269:27: note: in expansion of macro 'LOG_COLOR'
+  269 | #define LOG_COLOR_W       LOG_COLOR(LOG_COLOR_BROWN)
+      |                           ^~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:282:37: note: in expansion of macro 'LOG_COLOR_W'
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:411:86: note: in expansion of macro 'LOG_FORMAT'
+  411 |         else if (level==ESP_LOG_WARN )      { esp_log_write(ESP_LOG_WARN,       tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt.c:100:5: note: in expansion of macro 'ESP_LOGI'
+  100 |     ESP_LOGI(TAG_MQTT, "[APP] Free memory: %d bytes", esp_get_free_heap_size());
+      |     ^~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt.c:100:1: error: format '%d' expects argument of type 'int', but argument 6 has type 'uint32_t' {aka 'long unsigned int'} [-Werror=format=]
+  100 |     ESP_LOGI(TAG_MQTT, "[APP] Free memory: %d bytes", esp_get_free_heap_size());
+      | ^   ~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:282:59: note: in definition of macro 'LOG_FORMAT'
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                           ^~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt.c:100:5: note: in expansion of macro 'ESP_LOGI'
+  100 |     ESP_LOGI(TAG_MQTT, "[APP] Free memory: %d bytes", esp_get_free_heap_size());
+      |     ^~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt.c:100:1: error: format '%d' expects argument of type 'int', but argument 6 has type 'uint32_t' {aka 'long unsigned int'} [-Werror=format=]
+  100 |     ESP_LOGI(TAG_MQTT, "[APP] Free memory: %d bytes", esp_get_free_heap_size());
+      | ^   ~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:282:59: note: in definition of macro 'LOG_FORMAT'
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                           ^~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt.c:100:5: note: in expansion of macro 'ESP_LOGI'
+  100 |     ESP_LOGI(TAG_MQTT, "[APP] Free memory: %d bytes", esp_get_free_heap_size());
+      |     ^~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:265:27: error: format '%d' expects argument of type 'int', but argument 6 has type 'uint32_t' {aka 'long unsigned int'} [-Werror=format=]
+  265 | #define LOG_COLOR(COLOR)  "\033[0;" COLOR "m"
+      |                           ^~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:270:27: note: in expansion of macro 'LOG_COLOR'
+  270 | #define LOG_COLOR_I       LOG_COLOR(LOG_COLOR_GREEN)
+      |                           ^~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:282:37: note: in expansion of macro 'LOG_COLOR_I'
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:414:86: note: in expansion of macro 'LOG_FORMAT'
+  414 |         else                                { esp_log_write(ESP_LOG_INFO,       tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/Users/mgois/esp/esp-idf/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt.c:100:5: note: in expansion of macro 'ESP_LOGI'
+  100 |     ESP_LOGI(TAG_MQTT, "[APP] Free memory: %d bytes", esp_get_free_heap_size());
+      |     ^~~~~~~~
+cc1: some warnings being treated as errors
+[8/18] Building C object esp-idf/components/CMakeFiles/__idf_components.dir/mqtt_subscriber_rele2.c.obj
+FAILED: esp-idf/components/CMakeFiles/__idf_components.dir/mqtt_subscriber_rele2.c.obj 
+/Users/mgois/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -DMBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\" -I/Users/mgois/tcc/com_module/build/config -I/Users/mgois/tcc/com_module/components/include -I/Users/mgois/esp/esp-idf/components/newlib/platform_include -I/Users/mgois/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/Users/mgois/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/Users/mgois/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/Users/mgois/esp/esp-idf/components/freertos/esp_additions/include -I/Users/mgois/esp/esp-idf/components/esp_hw_support/include -I/Users/mgois/esp/esp-idf/components/esp_hw_support/include/soc -I/Users/mgois/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/Users/mgois/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/Users/mgois/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/Users/mgois/esp/esp-idf/components/heap/include -I/Users/mgois/esp/esp-idf/components/log/include -I/Users/mgois/esp/esp-idf/components/soc/include -I/Users/mgois/esp/esp-idf/components/soc/esp32/. -I/Users/mgois/esp/esp-idf/components/soc/esp32/include -I/Users/mgois/esp/esp-idf/components/hal/esp32/include -I/Users/mgois/esp/esp-idf/components/hal/include -I/Users/mgois/esp/esp-idf/components/hal/platform_port/include -I/Users/mgois/esp/esp-idf/components/esp_rom/include -I/Users/mgois/esp/esp-idf/components/esp_rom/include/esp32 -I/Users/mgois/esp/esp-idf/components/esp_rom/esp32 -I/Users/mgois/esp/esp-idf/components/esp_common/include -I/Users/mgois/esp/esp-idf/components/esp_system/include -I/Users/mgois/esp/esp-idf/components/esp_system/port/soc -I/Users/mgois/esp/esp-idf/components/esp_system/port/include/private -I/Users/mgois/esp/esp-idf/components/xtensa/include -I/Users/mgois/esp/esp-idf/components/xtensa/esp32/include -I/Users/mgois/esp/esp-idf/components/lwip/include -I/Users/mgois/esp/esp-idf/components/lwip/include/apps -I/Users/mgois/esp/esp-idf/components/lwip/include/apps/sntp -I/Users/mgois/esp/esp-idf/components/lwip/lwip/src/include -I/Users/mgois/esp/esp-idf/components/lwip/port/esp32/include -I/Users/mgois/esp/esp-idf/components/lwip/port/esp32/include/arch -I/Users/mgois/esp/esp-idf/components/driver/include -I/Users/mgois/esp/esp-idf/components/driver/deprecated -I/Users/mgois/esp/esp-idf/components/driver/esp32/include -I/Users/mgois/esp/esp-idf/components/esp_pm/include -I/Users/mgois/esp/esp-idf/components/esp_ringbuf/include -I/Users/mgois/esp/esp-idf/components/json/cJSON -I/Users/mgois/esp/esp-idf/components/mqtt/esp-mqtt/include -I/Users/mgois/esp/esp-idf/components/esp_event/include -I/Users/mgois/esp/esp-idf/components/tcp_transport/include -I/Users/mgois/esp/esp-idf/components/esp-tls -I/Users/mgois/esp/esp-idf/components/esp-tls/esp-tls-crypto -I/Users/mgois/esp/esp-idf/components/mbedtls/port/include -I/Users/mgois/esp/esp-idf/components/mbedtls/mbedtls/include -I/Users/mgois/esp/esp-idf/components/mbedtls/mbedtls/library -I/Users/mgois/esp/esp-idf/components/mbedtls/esp_crt_bundle/include -I/Users/mgois/esp/esp-idf/components/spiffs/include -I/Users/mgois/esp/esp-idf/components/spi_flash/include -I/Users/mgois/esp/esp-idf/components/esp_http_server/include -I/Users/mgois/esp/esp-idf/components/http_parser -I/Users/mgois/esp/esp-idf/components/esp_eth/include -I/Users/mgois/esp/esp-idf/components/esp_wifi/include -I/Users/mgois/esp/esp-idf/components/esp_phy/include -I/Users/mgois/esp/esp-idf/components/esp_phy/esp32/include -I/Users/mgois/esp/esp-idf/components/esp_netif/include -I/Users/mgois/esp/esp-idf/components/nvs_flash/include -mlongcalls -Wno-frame-address  -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=/Users/mgois/tcc/com_module=. -fmacro-prefix-map=/Users/mgois/esp/esp-idf=/IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -D_GNU_SOURCE -DIDF_VER=\"v5.1-dev-187-g5b11895700\" -DESP_PLATFORM -D_POSIX_READER_WRITER_LOCKS -MD -MT esp-idf/components/CMakeFiles/__idf_components.dir/mqtt_subscriber_rele2.c.obj -MF esp-idf/components/CMakeFiles/__idf_components.dir/mqtt_subscriber_rele2.c.obj.d -o esp-idf/components/CMakeFiles/__idf_components.dir/mqtt_subscriber_rele2.c.obj -c /Users/mgois/tcc/com_module/components/mqtt_subscriber_rele2.c
+/Users/mgois/tcc/com_module/components/mqtt_subscriber_rele2.c: In function 'mqtt_subscriber_rele2_task':
+/Users/mgois/tcc/com_module/components/mqtt_subscriber_rele2.c:84:14: error: 'esp_mqtt_client_config_t' has no member named 'uri'
+   84 |             .uri = CONFIG_BROKER_URL,
+      |              ^~~
+/Users/mgois/tcc/com_module/components/mqtt_subscriber_rele2.c:85:14: error: 'esp_mqtt_client_config_t' has no member named 'event_handle'
+   85 |             .event_handle = mqtt_event_handler,
+      |              ^~~~~~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt_subscriber_rele2.c:85:29: warning: initialization of 'const char *' from incompatible pointer type 'esp_err_t (*)(esp_mqtt_event_t *)' {aka 'int (*)(esp_mqtt_event_t *)'} [-Wincompatible-pointer-types]
+   85 |             .event_handle = mqtt_event_handler,
+      |                             ^~~~~~~~~~~~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt_subscriber_rele2.c:85:29: note: (near initialization for 'mqtt_cfg.credentials.username')
+/Users/mgois/tcc/com_module/components/mqtt_subscriber_rele2.c:86:14: error: 'esp_mqtt_client_config_t' has no member named 'username'
+   86 |             .username = "Token #2",
+      |              ^~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt_subscriber_rele2.c:87:14: error: 'esp_mqtt_client_config_t' has no member named 'password'
+   87 |             .password = "a6fbba72-067c-4309-be80-ac15ec1c1aa7"
+      |              ^~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt_subscriber_rele2.c:87:25: warning: initialization of 'int' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   87 |             .password = "a6fbba72-067c-4309-be80-ac15ec1c1aa7"
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt_subscriber_rele2.c:87:25: note: (near initialization for 'mqtt_cfg.network.reconnect_timeout_ms')
+/Users/mgois/tcc/com_module/components/mqtt_subscriber_rele2.c:83:47: error: missing braces around initializer [-Werror=missing-braces]
+   83 |     const esp_mqtt_client_config_t mqtt_cfg = {
+      |                                               ^
+cc1: some warnings being treated as errors
+[9/18] Building C object esp-idf/components/CMakeFiles/__idf_components.dir/mqtt_subscriber.c.obj
+FAILED: esp-idf/components/CMakeFiles/__idf_components.dir/mqtt_subscriber.c.obj 
+/Users/mgois/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -DMBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\" -I/Users/mgois/tcc/com_module/build/config -I/Users/mgois/tcc/com_module/components/include -I/Users/mgois/esp/esp-idf/components/newlib/platform_include -I/Users/mgois/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/Users/mgois/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/Users/mgois/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/Users/mgois/esp/esp-idf/components/freertos/esp_additions/include -I/Users/mgois/esp/esp-idf/components/esp_hw_support/include -I/Users/mgois/esp/esp-idf/components/esp_hw_support/include/soc -I/Users/mgois/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/Users/mgois/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/Users/mgois/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/Users/mgois/esp/esp-idf/components/heap/include -I/Users/mgois/esp/esp-idf/components/log/include -I/Users/mgois/esp/esp-idf/components/soc/include -I/Users/mgois/esp/esp-idf/components/soc/esp32/. -I/Users/mgois/esp/esp-idf/components/soc/esp32/include -I/Users/mgois/esp/esp-idf/components/hal/esp32/include -I/Users/mgois/esp/esp-idf/components/hal/include -I/Users/mgois/esp/esp-idf/components/hal/platform_port/include -I/Users/mgois/esp/esp-idf/components/esp_rom/include -I/Users/mgois/esp/esp-idf/components/esp_rom/include/esp32 -I/Users/mgois/esp/esp-idf/components/esp_rom/esp32 -I/Users/mgois/esp/esp-idf/components/esp_common/include -I/Users/mgois/esp/esp-idf/components/esp_system/include -I/Users/mgois/esp/esp-idf/components/esp_system/port/soc -I/Users/mgois/esp/esp-idf/components/esp_system/port/include/private -I/Users/mgois/esp/esp-idf/components/xtensa/include -I/Users/mgois/esp/esp-idf/components/xtensa/esp32/include -I/Users/mgois/esp/esp-idf/components/lwip/include -I/Users/mgois/esp/esp-idf/components/lwip/include/apps -I/Users/mgois/esp/esp-idf/components/lwip/include/apps/sntp -I/Users/mgois/esp/esp-idf/components/lwip/lwip/src/include -I/Users/mgois/esp/esp-idf/components/lwip/port/esp32/include -I/Users/mgois/esp/esp-idf/components/lwip/port/esp32/include/arch -I/Users/mgois/esp/esp-idf/components/driver/include -I/Users/mgois/esp/esp-idf/components/driver/deprecated -I/Users/mgois/esp/esp-idf/components/driver/esp32/include -I/Users/mgois/esp/esp-idf/components/esp_pm/include -I/Users/mgois/esp/esp-idf/components/esp_ringbuf/include -I/Users/mgois/esp/esp-idf/components/json/cJSON -I/Users/mgois/esp/esp-idf/components/mqtt/esp-mqtt/include -I/Users/mgois/esp/esp-idf/components/esp_event/include -I/Users/mgois/esp/esp-idf/components/tcp_transport/include -I/Users/mgois/esp/esp-idf/components/esp-tls -I/Users/mgois/esp/esp-idf/components/esp-tls/esp-tls-crypto -I/Users/mgois/esp/esp-idf/components/mbedtls/port/include -I/Users/mgois/esp/esp-idf/components/mbedtls/mbedtls/include -I/Users/mgois/esp/esp-idf/components/mbedtls/mbedtls/library -I/Users/mgois/esp/esp-idf/components/mbedtls/esp_crt_bundle/include -I/Users/mgois/esp/esp-idf/components/spiffs/include -I/Users/mgois/esp/esp-idf/components/spi_flash/include -I/Users/mgois/esp/esp-idf/components/esp_http_server/include -I/Users/mgois/esp/esp-idf/components/http_parser -I/Users/mgois/esp/esp-idf/components/esp_eth/include -I/Users/mgois/esp/esp-idf/components/esp_wifi/include -I/Users/mgois/esp/esp-idf/components/esp_phy/include -I/Users/mgois/esp/esp-idf/components/esp_phy/esp32/include -I/Users/mgois/esp/esp-idf/components/esp_netif/include -I/Users/mgois/esp/esp-idf/components/nvs_flash/include -mlongcalls -Wno-frame-address  -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=/Users/mgois/tcc/com_module=. -fmacro-prefix-map=/Users/mgois/esp/esp-idf=/IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -D_GNU_SOURCE -DIDF_VER=\"v5.1-dev-187-g5b11895700\" -DESP_PLATFORM -D_POSIX_READER_WRITER_LOCKS -MD -MT esp-idf/components/CMakeFiles/__idf_components.dir/mqtt_subscriber.c.obj -MF esp-idf/components/CMakeFiles/__idf_components.dir/mqtt_subscriber.c.obj.d -o esp-idf/components/CMakeFiles/__idf_components.dir/mqtt_subscriber.c.obj -c /Users/mgois/tcc/com_module/components/mqtt_subscriber.c
+/Users/mgois/tcc/com_module/components/mqtt_subscriber.c: In function 'mqtt_subscriber_task':
+/Users/mgois/tcc/com_module/components/mqtt_subscriber.c:84:14: error: 'esp_mqtt_client_config_t' has no member named 'uri'
+   84 |             .uri = CONFIG_BROKER_URL,
+      |              ^~~
+/Users/mgois/tcc/com_module/components/mqtt_subscriber.c:85:14: error: 'esp_mqtt_client_config_t' has no member named 'event_handle'
+   85 |             .event_handle = mqtt_event_handler,
+      |              ^~~~~~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt_subscriber.c:85:29: warning: initialization of 'const char *' from incompatible pointer type 'esp_err_t (*)(esp_mqtt_event_t *)' {aka 'int (*)(esp_mqtt_event_t *)'} [-Wincompatible-pointer-types]
+   85 |             .event_handle = mqtt_event_handler,
+      |                             ^~~~~~~~~~~~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt_subscriber.c:85:29: note: (near initialization for 'mqtt_cfg.credentials.username')
+/Users/mgois/tcc/com_module/components/mqtt_subscriber.c:86:14: error: 'esp_mqtt_client_config_t' has no member named 'username'
+   86 |             .username = "Token #2",
+      |              ^~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt_subscriber.c:87:14: error: 'esp_mqtt_client_config_t' has no member named 'password'
+   87 |             .password = "a6fbba72-067c-4309-be80-ac15ec1c1aa7"
+      |              ^~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt_subscriber.c:87:25: warning: initialization of 'int' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   87 |             .password = "a6fbba72-067c-4309-be80-ac15ec1c1aa7"
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/mgois/tcc/com_module/components/mqtt_subscriber.c:87:25: note: (near initialization for 'mqtt_cfg.network.reconnect_timeout_ms')
+/Users/mgois/tcc/com_module/components/mqtt_subscriber.c:83:47: error: missing braces around initializer [-Werror=missing-braces]
+   83 |     const esp_mqtt_client_config_t mqtt_cfg = {
+      |                                               ^
+cc1: some warnings being treated as errors
+[10/18] Building C object esp-idf/components/CMakeFiles/__idf_components.dir/button.c.obj
+[11/18] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+ninja: build stopped: subcommand failed.

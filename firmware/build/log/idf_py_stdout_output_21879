@@ -1,0 +1,15 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cd /Users/mgois/tcc/com_module/build/bootloader/esp-idf/esptool_py && /Users/mgois/.espressif/python_env/idf5.1_py3.10_env/bin/python /Users/mgois/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/mgois/tcc/com_module/build/bootloader/bootloader.bin
+Bootloader binary size 0x66c0 bytes. 0x940 bytes (8%) free.
+[2/7] Building C object esp-idf/components/CMakeFiles/__idf_components.dir/button.c.obj
+[3/7] Linking C static library esp-idf/components/libcomponents.a
+[4/7] Generating ld/sections.ld
+[5/7] Linking CXX executable esp_occhi.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.2.1
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated /Users/mgois/tcc/com_module/build/esp_occhi.bin
+[7/7] cd /Users/mgois/tcc/com_module/build/esp-idf/esptool_py && /Users/mgois/.espressif/python_env/idf5.1_py3.10_env/bin/python /Users/mgois/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/mgois/tcc/com_module/build/partition_table/partition-table.bin /Users/mgois/tcc/com_module/build/esp_occhi.bin
+esp_occhi.bin binary size 0xdeb50 bytes. Smallest app partition is 0x100000 bytes. 0x214b0 bytes (13%) free.

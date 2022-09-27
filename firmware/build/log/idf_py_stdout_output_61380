@@ -1,0 +1,36 @@
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /Users/mgois/tcc/com_module/sdkconfig
+Loading defaults file /Users/mgois/tcc/com_module/sdkconfig.defaults...
+-- App "esp_occhi" version: 020eb83-dirty
+-- Adding linker script /Users/mgois/tcc/com_module/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /Users/mgois/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /Users/mgois/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /Users/mgois/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /Users/mgois/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /Users/mgois/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /Users/mgois/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /Users/mgois/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /Users/mgois/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock components console cxx driver efuse esp-tls esp_adc esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_netif esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_serial_slave_link esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport tinyusb ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /Users/mgois/esp/esp-idf/components/app_trace /Users/mgois/esp/esp-idf/components/app_update /Users/mgois/esp/esp-idf/components/bootloader /Users/mgois/esp/esp-idf/components/bootloader_support /Users/mgois/esp/esp-idf/components/bt /Users/mgois/esp/esp-idf/components/cmock /Users/mgois/tcc/com_module/components /Users/mgois/esp/esp-idf/components/console /Users/mgois/esp/esp-idf/components/cxx /Users/mgois/esp/esp-idf/components/driver /Users/mgois/esp/esp-idf/components/efuse /Users/mgois/esp/esp-idf/components/esp-tls /Users/mgois/esp/esp-idf/components/esp_adc /Users/mgois/esp/esp-idf/components/esp_common /Users/mgois/esp/esp-idf/components/esp_eth /Users/mgois/esp/esp-idf/components/esp_event /Users/mgois/esp/esp-idf/components/esp_gdbstub /Users/mgois/esp/esp-idf/components/esp_hid /Users/mgois/esp/esp-idf/components/esp_http_client /Users/mgois/esp/esp-idf/components/esp_http_server /Users/mgois/esp/esp-idf/components/esp_https_ota /Users/mgois/esp/esp-idf/components/esp_https_server /Users/mgois/esp/esp-idf/components/esp_hw_support /Users/mgois/esp/esp-idf/components/esp_lcd /Users/mgois/esp/esp-idf/components/esp_local_ctrl /Users/mgois/esp/esp-idf/components/esp_netif /Users/mgois/esp/esp-idf/components/esp_phy /Users/mgois/esp/esp-idf/components/esp_pm /Users/mgois/esp/esp-idf/components/esp_psram /Users/mgois/esp/esp-idf/components/esp_ringbuf /Users/mgois/esp/esp-idf/components/esp_rom /Users/mgois/esp/esp-idf/components/esp_serial_slave_link /Users/mgois/esp/esp-idf/components/esp_system /Users/mgois/esp/esp-idf/components/esp_timer /Users/mgois/esp/esp-idf/components/esp_wifi /Users/mgois/esp/esp-idf/components/espcoredump /Users/mgois/esp/esp-idf/components/esptool_py /Users/mgois/esp/esp-idf/components/fatfs /Users/mgois/esp/esp-idf/components/freertos /Users/mgois/esp/esp-idf/components/hal /Users/mgois/esp/esp-idf/components/heap /Users/mgois/esp/esp-idf/components/http_parser /Users/mgois/esp/esp-idf/components/idf_test /Users/mgois/esp/esp-idf/components/ieee802154 /Users/mgois/esp/esp-idf/components/json /Users/mgois/esp/esp-idf/components/log /Users/mgois/esp/esp-idf/components/lwip /Users/mgois/tcc/com_module/main /Users/mgois/esp/esp-idf/components/mbedtls /Users/mgois/esp/esp-idf/components/mqtt /Users/mgois/esp/esp-idf/components/newlib /Users/mgois/esp/esp-idf/components/nvs_flash /Users/mgois/esp/esp-idf/components/openthread /Users/mgois/esp/esp-idf/components/partition_table /Users/mgois/esp/esp-idf/components/perfmon /Users/mgois/esp/esp-idf/components/protobuf-c /Users/mgois/esp/esp-idf/components/protocomm /Users/mgois/esp/esp-idf/components/pthread /Users/mgois/esp/esp-idf/components/sdmmc /Users/mgois/esp/esp-idf/components/soc /Users/mgois/esp/esp-idf/components/spi_flash /Users/mgois/esp/esp-idf/components/spiffs /Users/mgois/esp/esp-idf/components/tcp_transport /Users/mgois/esp/esp-idf/components/tinyusb /Users/mgois/esp/esp-idf/components/ulp /Users/mgois/esp/esp-idf/components/unity /Users/mgois/esp/esp-idf/components/usb /Users/mgois/esp/esp-idf/components/vfs /Users/mgois/esp/esp-idf/components/wear_levelling /Users/mgois/esp/esp-idf/components/wifi_provisioning /Users/mgois/esp/esp-idf/components/wpa_supplicant /Users/mgois/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/mgois/tcc/com_module/build
+[1/11] Performing build step for 'bootloader'
+[1/1] cd /Users/mgois/tcc/com_module/build/bootloader/esp-idf/esptool_py && /Users/mgois/.espressif/python_env/idf5.1_py3.10_env/bin/python /Users/mgois/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/mgois/tcc/com_module/build/bootloader/bootloader.bin
+Bootloader binary size 0x66c0 bytes. 0x940 bytes (8%) free.
+[2/9] Building C object esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj
+[3/9] Linking C static library esp-idf/app_update/libapp_update.a
+[4/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[5/9] Linking C static library esp-idf/main/libmain.a
+[6/9] Generating ld/sections.ld
+[7/9] Linking CXX executable esp_occhi.elf
+[8/9] Generating binary image from built executable
+esptool.py v4.2.1
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated /Users/mgois/tcc/com_module/build/esp_occhi.bin
+[9/9] cd /Users/mgois/tcc/com_module/build/esp-idf/esptool_py && /Users/mgois/.espressif/python_env/idf5.1_py3.10_env/bin/python /Users/mgois/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/mgois/tcc/com_module/build/partition_table/partition-table.bin /Users/mgois/tcc/com_module/build/esp_occhi.bin
+esp_occhi.bin binary size 0xdebd0 bytes. Smallest app partition is 0x100000 bytes. 0x21430 bytes (13%) free.

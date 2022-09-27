@@ -1,0 +1,24 @@
+[1/18] Performing build step for 'bootloader'
+[1/1] cd /Users/mgois/tcc/com_module/build/bootloader/esp-idf/esptool_py && /Users/mgois/.espressif/python_env/idf5.1_py3.10_env/bin/python /Users/mgois/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/mgois/tcc/com_module/build/bootloader/bootloader.bin
+Bootloader binary size 0x66c0 bytes. 0x940 bytes (8%) free.
+[2/16] Building C object esp-idf/components/CMakeFiles/__idf_components.dir/uart.c.obj
+[3/16] Building C object esp-idf/components/CMakeFiles/__idf_components.dir/structures.c.obj
+[4/16] Building C object esp-idf/components/CMakeFiles/__idf_components.dir/mqtt_subscriber_relay_2.c.obj
+[5/16] Building C object esp-idf/components/CMakeFiles/__idf_components.dir/mqtt_config.c.obj
+[6/16] Building C object esp-idf/components/CMakeFiles/__idf_components.dir/mqtt_publish_state.c.obj
+[7/16] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[8/16] Building C object esp-idf/components/CMakeFiles/__idf_components.dir/events.c.obj
+[9/16] Building C object esp-idf/components/CMakeFiles/__idf_components.dir/mqtt_subscriber_relay_1.c.obj
+[10/16] Building C object esp-idf/components/CMakeFiles/__idf_components.dir/mqtt_publish_data.c.obj
+[11/16] Linking C static library esp-idf/components/libcomponents.a
+[12/16] Linking C static library esp-idf/main/libmain.a
+[13/16] Generating ld/sections.ld
+[14/16] Linking CXX executable esp_occhi.elf
+[15/16] Generating binary image from built executable
+esptool.py v4.2.1
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated /Users/mgois/tcc/com_module/build/esp_occhi.bin
+[16/16] cd /Users/mgois/tcc/com_module/build/esp-idf/esptool_py && /Users/mgois/.espressif/python_env/idf5.1_py3.10_env/bin/python /Users/mgois/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/mgois/tcc/com_module/build/partition_table/partition-table.bin /Users/mgois/tcc/com_module/build/esp_occhi.bin
+esp_occhi.bin binary size 0xdebe0 bytes. Smallest app partition is 0x100000 bytes. 0x21420 bytes (13%) free.
